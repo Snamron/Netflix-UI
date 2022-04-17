@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../model/assets.dart';
 import '../model/model.dart';
 
-const Content sintelContent = Content(
+Content sintelContent = const Content(
   name: 'Sintel',
   imageUrl: Assets.sintel,
   titleImageUrl: Assets.sintelTitle,
@@ -76,40 +76,98 @@ const List<Content> previews = [
 ];
 
 const List<Content> myList = [
-  Content(name: 'Violet Evergarden', imageUrl: Assets.violetEvergarden),
-  Content(name: 'How to Sell Drugs Online (Fast)', imageUrl: Assets.htsdof),
-  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui),
-  Content(name: 'Carole and Tuesday', imageUrl: Assets.caroleAndTuesday),
-  Content(name: 'Black Mirror', imageUrl: Assets.blackMirror),
-  Content(name: 'Violet Evergarden', imageUrl: Assets.violetEvergarden),
-  Content(name: 'How to Sell Drugs Online (Fast)', imageUrl: Assets.htsdof),
-  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui),
-  Content(name: 'Carole and Tuesday', imageUrl: Assets.caroleAndTuesday),
-  Content(name: 'Black Mirror', imageUrl: Assets.blackMirror),
+  Content(
+      name: 'Violet Evergarden',
+      imageUrl: Assets.violetEvergarden,
+      titleImageUrl: ''),
+  Content(
+      name: 'How to Sell Drugs Online (Fast)',
+      imageUrl: Assets.htsdof,
+      titleImageUrl: ''),
+  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui, titleImageUrl: ''),
+  Content(
+      name: 'Carole and Tuesday',
+      imageUrl: Assets.caroleAndTuesday,
+      titleImageUrl: ''),
+  Content(
+      name: 'Black Mirror', imageUrl: Assets.blackMirror, titleImageUrl: ''),
+  Content(
+      name: 'Violet Evergarden',
+      imageUrl: Assets.violetEvergarden,
+      titleImageUrl: ''),
+  Content(
+      name: 'How to Sell Drugs Online (Fast)',
+      imageUrl: Assets.htsdof,
+      titleImageUrl: ''),
+  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui, titleImageUrl: ''),
+  Content(
+      name: 'Carole and Tuesday',
+      imageUrl: Assets.caroleAndTuesday,
+      titleImageUrl: ''),
+  Content(
+      name: 'Black Mirror', imageUrl: Assets.blackMirror, titleImageUrl: ''),
 ];
 
 const List<Content> originals = [
-  Content(name: 'Stranger Things', imageUrl: Assets.strangerThings),
-  Content(name: 'The Witcher', imageUrl: Assets.witcher),
-  Content(name: 'The Umbrella Academy', imageUrl: Assets.umbrellaAcademy),
-  Content(name: '13 Reasons Why', imageUrl: Assets.thirteenReasonsWhy),
-  Content(name: 'The End of the F***ing World', imageUrl: Assets.teotfw),
-  Content(name: 'Stranger Things', imageUrl: Assets.strangerThings),
-  Content(name: 'The Witcher', imageUrl: Assets.witcher),
-  Content(name: 'The Umbrella Academy', imageUrl: Assets.umbrellaAcademy),
-  Content(name: '13 Reasons Why', imageUrl: Assets.thirteenReasonsWhy),
-  Content(name: 'The End of the F***ing World', imageUrl: Assets.teotfw),
+  Content(
+      name: 'Stranger Things',
+      imageUrl: Assets.strangerThings,
+      titleImageUrl: ''),
+  Content(name: 'The Witcher', imageUrl: Assets.witcher, titleImageUrl: ''),
+  Content(
+      name: 'The Umbrella Academy',
+      imageUrl: Assets.umbrellaAcademy,
+      titleImageUrl: ''),
+  Content(
+      name: '13 Reasons Why',
+      imageUrl: Assets.thirteenReasonsWhy,
+      titleImageUrl: ''),
+  Content(
+      name: 'The End of the F***ing World',
+      imageUrl: Assets.teotfw,
+      titleImageUrl: ''),
+  Content(
+      name: 'Stranger Things',
+      imageUrl: Assets.strangerThings,
+      titleImageUrl: ''),
+  Content(name: 'The Witcher', imageUrl: Assets.witcher, titleImageUrl: ''),
+  Content(
+      name: 'The Umbrella Academy',
+      imageUrl: Assets.umbrellaAcademy,
+      titleImageUrl: ''),
+  Content(
+      name: '13 Reasons Why',
+      imageUrl: Assets.thirteenReasonsWhy,
+      titleImageUrl: ''),
+  Content(
+      name: 'The End of the F***ing World',
+      imageUrl: Assets.teotfw,
+      titleImageUrl: ''),
 ];
 
 const List<Content> trending = [
-  Content(name: 'Explained', imageUrl: Assets.explained),
-  Content(name: 'Avatar The Last Airbender', imageUrl: Assets.atla),
-  Content(name: 'Tiger King', imageUrl: Assets.tigerKing),
-  Content(name: 'The Crown', imageUrl: Assets.crown),
-  Content(name: 'Dogs', imageUrl: Assets.dogs),
-  Content(name: 'Explained', imageUrl: Assets.explained),
-  Content(name: 'Avatar The Last Airbender', imageUrl: Assets.atla),
-  Content(name: 'Tiger King', imageUrl: Assets.tigerKing),
-  Content(name: 'The Crown', imageUrl: Assets.crown),
-  Content(name: 'Dogs', imageUrl: Assets.dogs),
+  Content(name: 'Explained', imageUrl: Assets.explained, titleImageUrl: ''),
+  Content(
+      name: 'Avatar The Last Airbender',
+      imageUrl: Assets.atla,
+      titleImageUrl: ''),
+  Content(name: 'Tiger King', imageUrl: Assets.tigerKing, titleImageUrl: ''),
+  Content(name: 'The Crown', imageUrl: Assets.crown, titleImageUrl: ''),
+  Content(name: 'Dogs', imageUrl: Assets.dogs, titleImageUrl: ''),
+  Content(name: 'Explained', imageUrl: Assets.explained, titleImageUrl: ''),
+  Content(
+      name: 'Avatar The Last Airbender',
+      imageUrl: Assets.atla,
+      titleImageUrl: ''),
+  Content(name: 'Tiger King', imageUrl: Assets.tigerKing, titleImageUrl: ''),
+  Content(
+    name: 'The Crown',
+    imageUrl: Assets.crown,
+    titleImageUrl: '',
+  ),
+  Content(
+    name: 'Dogs',
+    imageUrl: Assets.dogs,
+    titleImageUrl: '',
+  ),
 ];

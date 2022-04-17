@@ -10,7 +10,7 @@ class Content {
 
   const Content({
     required this.name,
-    required this.imageUrl,
+    this.imageUrl,
     this.titleImageUrl,
     this.videoUrl,
     this.description,
